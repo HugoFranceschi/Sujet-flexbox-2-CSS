@@ -1,0 +1,50 @@
+body {
+	background-color: pink;
+	margin: 173px 58px;
+}
+.cadre {
+	background-color: black;
+	border-radius: 10px;
+	display: flex;
+	padding: 12px;
+}
+.couleur-texte1 {
+	color: azure;
+}
+.couleur-texte2 {
+	display: flex;
+	color: azure;
+	align-items: baseline;
+	background-color: rgb(44, 36, 36);
+	border-left: solid rgb(230, 2, 180) 5px;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 20px;
+}
+span {
+	color: blueviolet;
+	margin-right: 5px;
+}
+.coter {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color: green;
+}
+h3 {
+	background-color: rgb(16, 66, 4);
+	border-radius: 20px;
+	width: 141.05px;
+	text-align: center;
+	border: solid green 1px;
+}
+img {
+	height: 80%;
+}
+
+.ligne {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 0 12px;
+}
